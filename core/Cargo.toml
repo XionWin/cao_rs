@@ -1,0 +1,21 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+
+[dependencies.syn]
+version="*"
+features = ["full"]
+[dependencies.quote]
+version="*"
+[dependencies.proc-macro2]
+version="*"
+
+
